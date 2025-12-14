@@ -1,0 +1,55 @@
+/* Dark Theme QSS */
+QWidget {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    font-family: "Segoe UI", sans-serif;
+}
+
+QLineEdit, QComboBox, QSpinBox, QDoubleSpinBox {
+    background-color: #2d2d2d;
+    border: 1px solid #3d3d3d;
+    border-radius: 4px;
+    padding: 5px;
+    color: #ffffff;
+}
+
+QPushButton {
+    background-color: #007acc;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+}
+
+QPushButton:hover {
+    background-color: #0098ff;
+}
+
+QTableWidget {
+    background-color: #2d2d2d;
+    gridline-color: #3d3d3d;
+    border: 1px solid #3d3d3d;
+}
+
+QHeaderView::section {
+    background-color: #3d3d3d;
+    padding: 4px;
+    border: 1px solid #2d2d2d;
+}
+
+QTabWidget::pane {
+    border: 1px solid #3d3d3d;
+}
+
+QTabBar::tab {
+    background-color: #2d2d2d;
+    padding: 8px 16px;
+    margin-right: 2px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+QTabBar::tab:selected {
+    background-color: #3d3d3d;
+    border-bottom: 2px solid #007acc;
+}
